@@ -71,3 +71,4 @@ src/
 - All async tasks must be spawned from main with `#[embassy_executor::task]`
 - Softdevice requires specific memory regions - update memory.x when enabling BLE
 - Use `Write Without Response` for RX characteristic, `Notify` for TX characteristic
+- when running this with cargo separate the shell out so we can keep reading it and doing other things
